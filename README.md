@@ -1,4 +1,4 @@
-# 🎬 YT SideTabs  
+### Youtube Comments, Description, Related, Playlist Right/Side Panel   
 
 > ✨ Transform YouTube with a **tabbed right-hand panel** — Comments, Description, Related Videos, Playlist, and more — all in one smooth sidebar.  
 
