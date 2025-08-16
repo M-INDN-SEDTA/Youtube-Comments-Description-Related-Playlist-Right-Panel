@@ -56,7 +56,7 @@ git clone https://github.com/M-INDN-SEDTA/Youtube-Comments-Description-Related-P
 ```
 > Go inside the repo
 ```
-cd yt-sidetabs
+cd Youtube-Comments-Description-Related-Playlist-Right-Panel
 ```
 
 👉 Alternatively, you can **Download ZIP** from GitHub and extract it.
