@@ -1,15 +1,15 @@
+Got it 👍 — your **Quick Install** section can be made more “copy-paste friendly” (like VS Code extensions or CLI tools). Below I’ve updated your README snippet with clearer steps, copyable commands, and small UI hints.
+
+---
+
+````markdown
 ### Youtube Comments, Description, Related, Playlist Right/Side Panel   
 
 > ✨ Transform YouTube with a **tabbed right-hand panel** — Comments, Description, Related Videos, Playlist, and more — all in one smooth sidebar.  
 
-<!-- <p align="center">
-  <img src="assets/demo.gif" alt="YT SideTabs Demo" width="700px">
-</p>   -->
-
 ---
 
 ## 🚀 Features  
-
 
 - 📑 **Tabbed Panel** → Switch between Comments, Description, Related, Playlist  
 - 🎨 **Dark Mode Friendly** → Seamlessly blends with YouTube themes  
@@ -40,18 +40,44 @@ yt-sidetabs/
 │   └── demo.gif                # Animated preview for README
 │
 └── README.md                   # 📖 Project documentation
+````
 
 ---
 
 ## ⚡ Quick Install
 
-1. **Download this repo** (ZIP or clone).
-2. Open your browser’s Extensions page:
+### 🔹 Chrome / Edge / Brave
 
-   * **Chrome / Edge** → `chrome://extensions/` → enable *Developer mode*.
-   * **Firefox** → `about:debugging#/runtime/this-firefox`.
-3. Click **Load unpacked** → select the folder (`edge-chrome/` or `firefox/`).
-4. Open YouTube → Enjoy the new right-hand panel 🎉
+1. **Download & Extract** this repo:
+
+   ```bash
+   git clone https://github.com/your-username/yt-sidetabs.git
+   cd yt-sidetabs/edge-chrome
+   ```
+
+   *(Or just [Download ZIP](../../archive/refs/heads/main.zip) & extract)*
+
+2. Open **Extensions page** → `chrome://extensions/`
+
+3. Enable **Developer Mode** (top-right toggle).
+
+4. Click **Load unpacked** → select the `edge-chrome/` folder.
+
+5. Open YouTube → ✅ Sidebar will appear.
+
+---
+
+### 🔹 Firefox
+
+1. Download repo:
+
+   ```bash
+   git clone https://github.com/your-username/yt-sidetabs.git
+   cd yt-sidetabs/firefox
+   ```
+2. Open **about\:debugging#/runtime/this-firefox** in Firefox.
+3. Click **Load Temporary Add-on…** → select `manifest.json` inside `firefox/`.
+4. Open YouTube → 🎉 Enjoy the new tabs!
 
 ---
 
@@ -77,3 +103,15 @@ Contributions are welcome!
 This project is licensed under the **MIT License**.
 See [LICENSE](LICENSE) for details.
 
+```
+
+---
+
+👉 This way, the **Quick Install** section looks professional:  
+- Direct `git clone` copy-paste block.  
+- ZIP fallback link for non-developers.  
+- Separate sections for Chromium vs Firefox.  
+- ✅ & 🎉 emojis to show success visually.  
+
+Want me to also add **browser badges** (Chrome Web Store, Firefox Add-ons) placeholders at the top — so when you publish, they’ll auto-link?
+```
