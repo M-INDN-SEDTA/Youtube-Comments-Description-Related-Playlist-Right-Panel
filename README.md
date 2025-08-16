@@ -33,3 +33,58 @@ yt-sidetabs/
 ├── edge-chrome/   # ⚡ Manifest V3 (Chromium: Chrome, Edge, Brave)
 ├── firefox/       # 🦊 Manifest V2 (Firefox stable)
 └── README.md
+```
+
+---
+
+## ⚡ Quick Install
+
+### 1. Download the Repository
+
+> Clone the repo (recommended)
+```bash
+git clone https://github.com/your-username/yt-sidetabs.git
+```
+> Go inside the repo
+```
+cd yt-sidetabs
+```
+
+👉 Alternatively, you can **Download ZIP** from GitHub and extract it.
+
+---
+
+### 2. Setup for Chrome / Edge / Brave
+
+> Go inside Chromium extension folder
+```bash
+cd edge-chrome
+```
+
+1. Open your browser and go to:
+
+   * Chrome → `chrome://extensions/`
+   * Edge → `edge://extensions/`
+2. Enable **Developer mode** (top right).
+3. Click **Load unpacked**.
+4. Select the `edge-chrome/` folder.
+5. Open YouTube → 🎉 The new right-hand panel is active.
+
+---
+
+### 3. Setup for Firefox
+
+> Go inside Firefox extension folder
+```bash
+cd firefox
+```
+
+1. Open Firefox and go to: `about:debugging#/runtime/this-firefox`.
+2. Click **Load Temporary Add-on…**.
+3. Select the `manifest.json` file inside `firefox/`.
+4. Open YouTube → 🎉 The right-hand panel is ready.
+
+---
+
+👉 Developer Mode is required for both Chrome/Edge and Firefox because this is an **unpacked extension**.
+
