@@ -104,14 +104,3 @@ This project is licensed under the **MIT License**.
 See [LICENSE](LICENSE) for details.
 
 ```
-
----
-
-👉 This way, the **Quick Install** section looks professional:  
-- Direct `git clone` copy-paste block.  
-- ZIP fallback link for non-developers.  
-- Separate sections for Chromium vs Firefox.  
-- ✅ & 🎉 emojis to show success visually.  
-
-Want me to also add **browser badges** (Chrome Web Store, Firefox Add-ons) placeholders at the top — so when you publish, they’ll auto-link?
-```
