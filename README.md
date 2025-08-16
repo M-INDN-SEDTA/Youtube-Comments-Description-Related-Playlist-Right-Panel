@@ -1,6 +1,9 @@
 ### Youtube Comments, Description, Related, Playlist Right/Side Panel   
 
 > ✨ Transform YouTube with a **tabbed right-hand panel** — Comments, Description, Related Videos, Playlist, and more — all in one smooth sidebar.
+> ✅ This extension is non-violating (not breaking YouTube’s or GitHub’s policies).
+> ✅ It follows YouTube and GitHub regulations.
+> ✅ Safe for personal use.
 
 
 ![Status](https://img.shields.io/badge/status-active-success) ![Firefox](https://img.shields.io/badge/firefox-supported-orange?logo=firefox) ![Chrome](https://img.shields.io/badge/chrome-supported-green?logo=google-chrome) ![Edge](https://img.shields.io/badge/edge-supported-blue?logo=microsoft-edge) ![License](https://img.shields.io/badge/license-MIT-blue) ![MadeWith](https://img.shields.io/badge/made%20with-JavaScript-yellow?logo=javascript)
