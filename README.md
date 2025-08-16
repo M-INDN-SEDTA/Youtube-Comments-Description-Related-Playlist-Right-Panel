@@ -10,15 +10,11 @@
 
 ## 🚀 Features  
 
-▶️ **Start Live Demo**  
-<p align="center">
-  <img src="assets/start-live.gif" alt="Start Live Demo" width="500px">
-</p>  
 
 - 📑 **Tabbed Panel** → Switch between Comments, Description, Related, Playlist  
 - 🎨 **Dark Mode Friendly** → Seamlessly blends with YouTube themes  
 - 📺 **Playlist Support** → Auto-adds Playlist tab when available  
-- 💬 **Live Chat Tab** → *(Planned)* for livestreams  
+- 💬 **Comments Tab** → *(Planned)* for comments  
 - ⚡ **Fast & Safe** → No reloads, no external requests, no tracking  
 
 ---
@@ -30,5 +26,4 @@ yt-sidetabs/
 │
 ├── edge-chrome/   # ⚡ Manifest V3 (Chromium: Chrome, Edge, Brave)
 ├── firefox/       # 🦊 Manifest V2 (Firefox stable)
-├── assets/        # 📸 Screenshots & 🎞️ animated GIFs
 └── README.md
