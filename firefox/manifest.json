@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "YTX Right Panel Tabs",
+  "version": "1.0.0",
+  "description": "Shows Comments, Description, Playlist and Related videos in a right-hand tabbed panel (Firefox compatible).",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "browser_action": {
+    "default_title": "Youtube Comments, Description, Related, Playlist Right/Side Panel - Firefox"
+  }
+}

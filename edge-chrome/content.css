@@ -1,0 +1,83 @@
+/* Right Panel */
+#ytx-right-panel {
+    max-height: 90vh;
+    width: 400px;
+    overflow-y: auto;
+    box-shadow: -2px 0 12px rgba(0,0,0,0.5);
+    font-family: "Roboto", Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #181818; /* always dark */
+    color: #fff;               /* always white */
+    scrollbar-width: thin;
+    scrollbar-color: #555 #222;
+}
+
+/* Webkit scrollbar */
+#ytx-right-panel::-webkit-scrollbar {
+    width: 8px;
+}
+#ytx-right-panel::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 4px;
+}
+#ytx-right-panel::-webkit-scrollbar-track {
+    background-color: #222;
+}
+
+/* Tab bar always black */
+#ytx-right-panel .ytx-tab-bar {
+    display: flex;
+    border-bottom: 1px solid #444;
+    background-color: #000;
+    align-items: center;
+}
+
+/* Tabs always white text */
+#ytx-right-panel .ytx-tab-bar button.tab-btn {
+    flex: 1;
+    padding: 12px 14px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+    transition: background 0.2s;
+}
+
+/* Hover for tabs */
+#ytx-right-panel .ytx-tab-bar button.tab-btn:hover {
+    background: #111;
+}
+
+/* Active tab: red bottom border */
+#ytx-right-panel .ytx-tab-bar button.tab-btn.active {
+    border-bottom: 3px solid #ff0000;
+}
+
+/* Tab content */
+#ytx-right-panel .ytx-tab-content {
+    display: none;
+    padding: 12px;
+    overflow-y: auto;
+    color: #fff; /* always white */
+    background-color: #181818; /* always dark */
+}
+
+/* Active content */
+#ytx-right-panel .ytx-tab-content.active {
+    display: block;
+}
+
+/* Comments & Description spacing tweaks */
+#ytx-right-panel #comments,
+#ytx-right-panel ytd-watch-metadata {
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+/* Smooth scrolling inside panel */
+#ytx-right-panel {
+    scroll-behavior: smooth;
+}
