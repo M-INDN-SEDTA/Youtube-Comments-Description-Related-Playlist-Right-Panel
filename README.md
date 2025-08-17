@@ -70,7 +70,7 @@ cd Youtube-Comments-Description-Related-Playlist-Right-Panel
 cd edge-chrome
 ```
 
-1. Open your browser and go to:
+1. Open your browser and go to/ search in SearchBox:
 
    * Chrome → `chrome://extensions/`
    * Edge → `edge://extensions/`
@@ -88,7 +88,7 @@ cd edge-chrome
 cd firefox
 ```
 
-1. Open Firefox and go to: `about:debugging#/runtime/this-firefox`.
+1. Open Firefox and go to/ search in SearchBox: `about:debugging#/runtime/this-firefox`.
 2. Click **Load Temporary Add-on…**.
 3. Select the `manifest.json` file inside `firefox/`.
 4. Open YouTube → 🎉 The right-hand panel is ready.
