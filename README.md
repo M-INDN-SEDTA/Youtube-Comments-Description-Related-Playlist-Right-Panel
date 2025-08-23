@@ -73,8 +73,14 @@ cd edge-chrome
 
 1. Open your browser and go to/ search in SearchBox:
 
-   * Chrome → `chrome://extensions/`
-   * Edge → `edge://extensions/`
+   * Chrome →
+ ```bash
+chrome://extensions/
+```
+   * Edge →
+```bash
+edge://extensions/
+```
 2. Enable **Developer mode** (top right).
 3. Click **Load unpacked**.
 4. Select the `edge-chrome/` folder.
@@ -89,7 +95,10 @@ cd edge-chrome
 cd firefox
 ```
 
-1. Open Firefox and go to/ search in SearchBox: `about:debugging#/runtime/this-firefox`.
+1. Open Firefox and go to/ search in SearchBox:
+```bash
+about:debugging#/runtime/this-firefox
+```
 2. Click **Load Temporary Add-on…**.
 3. Select the `manifest.json` file inside `firefox/`.
 4. Open YouTube → 🎉 The right-hand panel is ready.
