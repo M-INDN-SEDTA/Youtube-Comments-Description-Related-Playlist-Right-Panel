@@ -53,7 +53,7 @@ yt-sidetabs/
 
 > Clone the repo (recommended)
 ```bash
-git clone https://github.com/M-INDN-SEDTA/Youtube-Comments-Description-Related-Playlist-Right-Panel
+git clone https://github.com/M-INDN-SEDTA/Youtube-Comments-Description-Related-Playlist-Right-Panel_Web_Browser_Extension
 ```
 > Go inside the repo
 ```
