@@ -27,9 +27,10 @@
 
 
 - 📑 **Tabbed Panel** → Switch between Comments, Description, Related, Playlist  
-- 🎨 **Dark Mode Friendly** → Seamlessly blends with YouTube themes  
+- 🌞 **Theme Toggle** → Easily switch between Light and Dark modes with a single emoji
 - 📺 **Playlist Support** → Auto-adds Playlist tab when available  
 - 💬 **Comments Tab** → *(Planned)* for comments  
+- 📌 **Sticky Top Bar** → Tabs remain visible while scrolling for better navigation
 - ⚡ **Fast & Safe** → No reloads, no external requests, no tracking  
 
 ---

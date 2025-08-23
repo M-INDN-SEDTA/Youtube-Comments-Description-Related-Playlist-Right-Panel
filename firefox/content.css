@@ -1,6 +1,8 @@
 /* Right Panel */
 #ytx-right-panel {
-  position: absolute;
+    position: absolute;
+    top: 0;
+    right: 0;
     max-height: 90vh;
     width: 400px;
     overflow-y: auto;
@@ -8,10 +10,11 @@
     font-family: "Roboto", Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    background-color: #181818;
+    background-color: #181818; /* default dark */
     color: #fff;
     scrollbar-width: thin;
     scrollbar-color: #555 #222;
+    scroll-behavior: smooth;
 }
 
 /* Webkit scrollbar */
@@ -26,14 +29,18 @@
     background-color: #222;
 }
 
-/* Tab bar */
+/* Sticky Tab Bar */
 #ytx-right-panel .ytx-tab-bar {
     display: flex;
+    align-items: center;
     border-bottom: 1px solid #444;
     background-color: #000;
-    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
+/* Tabs */
 #ytx-right-panel .ytx-tab-bar button.tab-btn {
     flex: 1;
     padding: 12px 14px;
@@ -45,24 +52,22 @@
     color: #fff;
     transition: background 0.2s;
 }
-
 #ytx-right-panel .ytx-tab-bar button.tab-btn:hover {
     background: #111;
 }
-
 #ytx-right-panel .ytx-tab-bar button.tab-btn.active {
     border-bottom: 3px solid #ff0000;
 }
 
-/* Tab content */
+/* Tab Content */
 #ytx-right-panel .ytx-tab-content {
     display: none;
     padding: 12px;
     overflow-y: auto;
     background-color: #181818;
     color: #fff;
+    padding-top: 12px; /* spacing for sticky tab bar */
 }
-
 #ytx-right-panel .ytx-tab-content.active {
     display: block;
 }
@@ -74,7 +79,27 @@
     margin-bottom: 12px;
 }
 
-/* Smooth scrolling */
+/* Light Theme Styles */
+#ytx-right-panel.light {
+    background-color: #fff;
+    color: #000;
+}
+#ytx-right-panel.light .ytx-tab-bar {
+    background-color: #eee;
+}
+#ytx-right-panel.light .ytx-tab-bar button.tab-btn {
+    background: #fff;
+    color: #000;
+}
+#ytx-right-panel.light .ytx-tab-bar button.tab-btn:hover {
+    background: #ddd;
+}
+#ytx-right-panel.light .ytx-tab-content {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Smooth scrolling (both themes) */
 #ytx-right-panel {
     scroll-behavior: smooth;
 }

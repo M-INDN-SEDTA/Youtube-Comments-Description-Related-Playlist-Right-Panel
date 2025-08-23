@@ -25,9 +25,27 @@ function setupRightPanel() {
     const playlistSection = document.querySelector("ytd-playlist-panel-renderer");
     if (playlistSection) tabs.push("Playlist");
 
-    // Tab bar
+    // Tab bar (sticky)
     const tabBar = document.createElement("div");
     tabBar.className = "ytx-tab-bar";
+
+    // Theme toggle button
+    const toggleBtn = document.createElement("button");
+    toggleBtn.textContent = "🌞"; // dark by default, click = light
+    toggleBtn.className = "theme-toggle";
+    let isDark = true;
+    toggleBtn.addEventListener("click", () => {
+        isDark = !isDark;
+        if (isDark) {
+            panel.classList.remove("light");
+            panel.classList.add("dark");
+            toggleBtn.textContent = "🌞";
+        } else {
+            panel.classList.remove("dark");
+            panel.classList.add("light");
+            toggleBtn.textContent = "🌙";
+        }
+    });
 
     tabs.forEach((tabName, i) => {
         const tab = document.createElement("button");
@@ -61,6 +79,9 @@ function setupRightPanel() {
         contents[tabName] = contentDiv;
         panel.appendChild(contentDiv);
     });
+
+    // Add toggle button at the end of tab bar
+    tabBar.appendChild(toggleBtn);
 
     panel.prepend(tabBar);
     secondary.prepend(panel);
